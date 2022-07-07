@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const Api = axios.create({
     //set default endpoint API
-    baseURL: 'https://admin.gizipedia.com/api'
+    baseURL: 'https://event.kardusinfo.com/api'
 })
 
 export default Api
