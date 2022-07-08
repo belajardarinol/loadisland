@@ -5,7 +5,7 @@
             <form @submit.prevent="register">
                 <div class="bg-white rounded-md shadow-md p-5">
                     <div class="text-xl">
-                        REGISTER AKUN
+                        Daftar Event
                     </div>
                     <div class="border-2 border-gray-200 mt-3 mb-2"></div>
 
