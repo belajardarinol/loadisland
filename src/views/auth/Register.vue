@@ -38,7 +38,7 @@
                             placeholder="NIK">
                     </div>
 
-                    <div class="form-check">
+                    <!-- <div class="form-check">
                     <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="2" id="flexCheckDefault">
                     <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
                         Tanggal 2
@@ -49,14 +49,23 @@
                     <label class="form-check-label inline-block text-gray-800" for="flexCheckChecked">
                         Tanggal 3
                     </label>
-                    </div>
+                    </div> -->
                     <!-- <div class="cols-span-1 mb-5">
                         <label class="mt-2">Konfirmasi Password</label> -->
                         <input type="hidden" v-model="user.password_confirmation"
                             class="mt-2 appearance-none w-full bg-gray-200 border border-gray-200 rounded h-7 shadow-sm placeholder-gray-600 focus:outline-none focus:placeholder-gray-600 focus:bg-white focus-within:text-gray-600 p-5"
                             placeholder="Konfirmasi Password">
                     <!-- </div> -->
-
+                    <div class="flex">
+                    <label class="flex items-center">
+                        <t-checkbox name="options" value="a" checked />
+                        <span class="ml-2 text-sm">Option A</span>
+                    </label>
+                    <label class="flex items-center ml-2">
+                        <t-checkbox name="options" value="b" />
+                        <span class="ml-2 text-sm">Option B</span>
+                    </label>
+                    </div>
                     <div>
                         <button
                             class="bg-gray-700 py-1 px-3 text-white rounded-md shadow-md text-xl inline-block w-full focus:outline-none focus:bg-gray-900">DAFTAR</button>
@@ -65,7 +74,7 @@
                 </div>
             </form>
             <div>
-                
+
             </div>
 
             <div class="text-center mt-5">
