@@ -36,7 +36,7 @@
                                     </div>
                                     <div class="ml-auto text-sm text-gray-500 underline">
                                         <div v-if="donation.status == 'success'">
-                                            <button class="bg-green-500 border-2 border-green-500 rounded shadow-sm text-xs py-1 px-2 text-black focus:outline-none">Berhasil</button>
+                                            <button class="bg-blue-500 border-2 border-green-500 rounded shadow-sm text-xs py-1 px-2 text-black focus:outline-none">Berhasil</button>
                                         </div>
                                         <div v-else-if="donation.status == 'pending'">
                                             <button class="bg-yellow-500 border-2 border-yellow-500 rounded shadow-sm text-xs py-1 px-2 text-black focus:outline-none">Pending</button>
