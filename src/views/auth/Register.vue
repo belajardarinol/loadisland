@@ -38,11 +38,23 @@
                             placeholder="NIK">
                     </div>
 
+                    <div class="form-check">
+                    <input v-model="user.password_confirmation" class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="2" id="flexCheckDefault">
+                    <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
+                        Tanggal 2
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input v-model="user.password_confirmation" class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="3" id="flexCheckChecked" checked>
+                    <label class="form-check-label inline-block text-gray-800" for="flexCheckChecked">
+                        Tanggal 3
+                    </label>
+                    </div>
                     <!-- <div class="cols-span-1 mb-5">
                         <label class="mt-2">Konfirmasi Password</label> -->
-                        <input type="hidden" v-model="user.password_confirmation"
+                        <!-- <input type="hidden" v-model="user.password_confirmation"
                             class="mt-2 appearance-none w-full bg-gray-200 border border-gray-200 rounded h-7 shadow-sm placeholder-gray-600 focus:outline-none focus:placeholder-gray-600 focus:bg-white focus-within:text-gray-600 p-5"
-                            placeholder="Konfirmasi Password">
+                            placeholder="Konfirmasi Password"> -->
                     <!-- </div> -->
 
                     <div>
