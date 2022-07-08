@@ -6,7 +6,7 @@
                 <div class="container mx-auto grid grid-cols-10 p-3 sm:w-full md:w-5/12">
                 <div class="col-span-2 bg-white rounded-full h-10 w-10 p-1 mr-3 shadow-sm">
                     <router-link :to="{name: 'home'}">
-                        <img src="@/assets/images/logo_giped.png" class="inline-block" style="border-radius:1;height:80; width:80;">
+                        <img src="@/assets/images/icon-kardusinfo.png" class="inline-block" style="border-radius:1;height:80; width:80;">
                         <div style="color:white;font-size:12px;">Load Island</div>
                     </router-link>
                 </div>
