@@ -56,7 +56,7 @@
                             class="mt-2 appearance-none w-full bg-gray-200 border border-gray-200 rounded h-7 shadow-sm placeholder-gray-600 focus:outline-none focus:placeholder-gray-600 focus:bg-white focus-within:text-gray-600 p-5"
                             placeholder="Konfirmasi Password">
                     <!-- </div> -->
-                    <div class="flex">
+                    <!-- <div class="flex">
                     <label class="flex items-center">
                         <t-checkbox name="options" value="a" checked />
                         <span class="ml-2 text-sm">Option A</span>
@@ -65,7 +65,7 @@
                         <t-checkbox name="options" value="b" />
                         <span class="ml-2 text-sm">Option B</span>
                     </label>
-                    </div>
+                    </div> -->
                     <div>
                         <button
                             class="bg-gray-700 py-1 px-3 text-white rounded-md shadow-md text-xl inline-block w-full focus:outline-none focus:bg-gray-900">DAFTAR</button>
