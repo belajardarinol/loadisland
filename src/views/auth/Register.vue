@@ -32,18 +32,18 @@
                     </div>
 
                     <div class="cols-span-1 mb-5">
-                        <label class="mt-2">Password</label>
+                        <label class="mt-2">NIK</label>
                         <input type="password" v-model="user.password"
                             class="mt-2 appearance-none w-full bg-gray-200 border border-gray-200 rounded h-7 shadow-sm placeholder-gray-600 focus:outline-none focus:placeholder-gray-600 focus:bg-white focus-within:text-gray-600 p-5"
-                            placeholder="Password">
+                            placeholder="NIK">
                     </div>
 
-                    <div class="cols-span-1 mb-5">
-                        <label class="mt-2">Konfirmasi Password</label>
-                        <input type="password" v-model="user.password_confirmation"
+                    <!-- <div class="cols-span-1 mb-5">
+                        <label class="mt-2">Konfirmasi Password</label> -->
+                        <input type="hidden" v-model="user.password_confirmation"
                             class="mt-2 appearance-none w-full bg-gray-200 border border-gray-200 rounded h-7 shadow-sm placeholder-gray-600 focus:outline-none focus:placeholder-gray-600 focus:bg-white focus-within:text-gray-600 p-5"
                             placeholder="Konfirmasi Password">
-                    </div>
+                    <!-- </div> -->
 
                     <div>
                         <button
