@@ -64,6 +64,9 @@
 
                 </div>
             </form>
+            <div>
+                
+            </div>
 
             <div class="text-center mt-5">
                 Sudah punya akun ? <router-link :to="{name: 'login'}" class="underline text-blue-600">Masuk Disini
