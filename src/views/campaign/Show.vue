@@ -62,8 +62,7 @@
                     <div class="mt-5">
                         <router-link :to="{name: 'donation.create', params:{slug: campaign.slug}}">
                             <button
-                                class="bg-yellow-500 py-3 rounded-md shadow-md text-xl w-full uppercase font-bold focus:outline-none focus:bg-yellow-600">Daftar
-                                Sekarang!</button>
+                                class="bg-yellow-500 py-3 rounded-md shadow-md text-xl w-full uppercase font-bold focus:outline-none focus:bg-yellow-600">Daftar Sekarang!</button>
                         </router-link>
                     </div>
                 </div>
